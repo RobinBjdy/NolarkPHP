@@ -9,6 +9,6 @@ echo'
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/styles.css" rel="stylesheet" type="text/css">
         <link href="../css/casques.css" rel="stylesheet" type="text/css">
-        <link rel="icon" href="../favicon.ico">
-        <script src="../js/article.js"></script>
+        <link href="../css/article.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="../favicon.ico">       
     </head>';

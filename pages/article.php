@@ -6,15 +6,9 @@
 -->
 <html>
     <?php 
-        require '../include/bdd.php';
-        $bd= new bdd('nolarkuser','nolarkpwd');
-        $cnx=$bd->GetPdo();
-        $pageCasque= substr($pageActuelle,0,-4);
         include('../include/head.inc.php');
-        include('../include/header.inc.php');        
-    ?>  
-    <?php 
-        include('../include/footer.inc.php');
+        include('../include/header.inc.php');
+        include('../include/article.inc.php');
+        include('../include/footer.inc.php');      
     ?>   
 </html>
-

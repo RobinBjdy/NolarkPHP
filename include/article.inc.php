@@ -18,9 +18,15 @@ while ($ligne = $rest->fetch(PDO::FETCH_OBJ)) {
     echo '<article>';
     echo'<h2>Casque ',$ligne->libelle,'</h2>';
     echo '<img src="../images/casques/', $ligne->libelle, '/', $ligne->image,
-    '" alt="', $ligne->modele, '"></a>';
-    echo '<p>',$ligne->nom,' ',$ligne->modele,'</p>';
+    '" alt="', $ligne->modele, '">';
+    echo '<p>','<span>',$ligne->nom,' ',$ligne->modele,'</span>','</br></br>','Les étoiles','</br></br>','Prix : ',
+            '<span1>',$ligne->prix,'€','</span1>','</br></br>','Quantité : ','<span2>', $ligne->stock,'</span2>', 
+            '</br></br>','<i class="fa fa-shopping-cart"></i>','<input class="add" type="submit" value="Ajouter au panier" />','</br></br>',' ',
+            '<i class="fa fa-credit-card"></i>','<input class="buy" type="submit" value="Acheter cet article" />','</p>';
+    echo '<div class="commentaires">', '</br></br></br>','Commentaires client :','</div>';
+    echo '</br>', '<textarea  ></textarea>';
     echo '</article>';
+    
 }
 
 

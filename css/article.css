@@ -7,7 +7,11 @@ and open the template in the editor.
     Created on : 31 mai 2020, 15:17:24
     Author     : Alexis
 */
-
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+h2{
+    font-family: 'Nordic';
+    font-weight: 200;
+}
 #articles img{
     margin-top: 5%;
     width:30%;
@@ -15,5 +19,62 @@ and open the template in the editor.
 
 #articles p{
     float: right;
-    margin-right: 5%;
+    width: 500px;
+    font-size: 1.4em;
+    padding-left: 2%;
+    border-left: 1px solid black;
+}
+
+span{
+    font-family: 'Nordic';
+}
+
+span1{
+    color: red;
+}
+
+span2{
+    background: greenyellow;
+}
+
+.add{
+    border:0;
+    background: linear-gradient(0.25turn,#FFF081, #FFE081);
+    outline: none;
+    border: 1px solid #4F5B7E;
+    padding: 1.5% 6%;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    margin-left: 3.7%; 
+    width: 40%;
+}
+
+.add:hover{
+    background: linear-gradient(0.25turn,#FFE56E, #FFD86E);
+}
+
+.buy{
+    border:0;
+    background: linear-gradient(0.25turn,#FFC457, #FF9E57);
+    outline: none;
+    border: 1px solid #4F5B7E;
+    padding: 1.5% 6%;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    margin-left: 3%; 
+    width: 40%;
+}
+
+.buy:hover{
+    background: linear-gradient(0.25turn,#FFB06E, #FF936E);
+}
+
+.commentaires{
+    font-size: 1.4em;
 }

@@ -11,7 +11,7 @@ $cnxt = $bdd->GetPdo();
 $reqt = 'SELECT casque.id, nom, modele, libelle, prix, classement, image, stock';
 $reqt .= ' FROM casque INNER JOIN type ON casque.type=type.id';
 $reqt .= ' INNER JOIN marque ON casque.marque=marque.id';
-$reqt .= ' WHERE stock="' . $_GET['stock'] . '" and nom="' . $_GET['nom'] . '" and prix="' . $_GET['prix'] . '"';
+$reqt .= ' WHERE stock="' . $_GET['stock'] . '" and nom="' . $_GET['nom'] . '" and image="' . $_GET['image'] . '"';
 $rest = $cnxt->query($reqt);
 echo '<section id="casques">';
 while ($ligne = $rest->fetch(PDO::FETCH_OBJ)) {

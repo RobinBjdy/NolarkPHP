@@ -6,14 +6,15 @@
 -->
 <html>
     <?php
-    include('../Include/head.inc.php');
-    include('../Include/header.inc.php');
+    include('../include/head.inc.php');
+    include('../include/header.inc.php');
+    include '../include/footer.inc.php';
     ?>
     <body>
         <section id="connex">
             <h1> Connexion : </h1>
             <form id="form_contact" name="form_connexion" action="connexion.php" method="POST">
-                <div class="login-box">
+                <div class="loginn-box">
                     <img class="logo" src="../images/images.png"   width="20%">
                         </br>
                         </br>
@@ -29,8 +30,5 @@
                 </form>
                 </section>
     </body>
-    <?php 
-    include '../include/footer.inc.php';
-    ?>
 
 </html>

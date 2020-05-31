@@ -13,15 +13,13 @@ $reqt .= ' FROM casque INNER JOIN type ON casque.type=type.id';
 $reqt .= ' INNER JOIN marque ON casque.marque=marque.id';
 $reqt .= ' WHERE stock="' . $_GET['stock'] . '" and nom="' . $_GET['nom'] . '" and image="' . $_GET['image'] . '"';
 $rest = $cnxt->query($reqt);
-echo '<section id="casques">';
+echo '<section id="articles">';
 while ($ligne = $rest->fetch(PDO::FETCH_OBJ)) {
     echo '<article>';
-    echo '<img id="casquee" src="../images/casques/', $ligne->libelle, '/', $ligne->image,
+    echo'<h2>Casque ',$ligne->libelle,'</h2>';
+    echo '<img src="../images/casques/', $ligne->libelle, '/', $ligne->image,
     '" alt="', $ligne->modele, '"></a>';
-    echo '<p class="stockok"><abbr data-tip="Plus que 6 casques en stock...">', $ligne->stock, '</abbr></p>';
-    echo '<p class="prix">', $ligne->prix, '€', '</p>';
-    echo '<p class="marque">', $ligne->nom, '</p>';
-    echo '<p class="modele">', $ligne->modele, '</p>';
+    echo '<p>',$ligne->nom,' ',$ligne->modele,'</p>';
     echo '</article>';
 }
 

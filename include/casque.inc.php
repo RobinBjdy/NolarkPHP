@@ -13,6 +13,10 @@ while ($ligne = $res->fetch(PDO::FETCH_OBJ)) {
  echo '<article>';
  echo '<a href="../pages/article.php"><img src="../images/casques/', $ligne->libelle, '/', $ligne->image,
  '" alt="', $ligne->modele, '"></a>';
+ echo '<p class="stockok"><abbr data-tip="Plus que 6 casques en stock...">',$ligne->stock,'</abbr></p>';
+ echo '<p class="prix">',$ligne->prix,'€','</p>';
+ echo '<p class="marque">',$ligne->nom,'</p>';
+ echo '<p class="modele">',$ligne->modele,'</p>';
  echo '</article>';
 }
 echo '</section>';

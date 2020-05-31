@@ -9,9 +9,9 @@
         include('../include/head.inc.php');
         include('../include/header.inc.php');        
     ?>
-    
+    <h1><?php echo $_GET['stock']?></h1>
     <?php 
         include('../include/footer.inc.php');
-    ?>
+    ?>   
 </html>
 

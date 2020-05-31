@@ -6,8 +6,9 @@
 -->
 <html>
     <?php 
-        include('../Include/head.inc.php');
-        include('../Include/header.inc.php');
-        include('../Include/footer.inc.php');
+        include('../include/head.inc.php');
+        include('../include/header.inc.php');
+        include('../include/casque.inc.php');
+        include('../include/footer.inc.php');      
     ?>
 </html>

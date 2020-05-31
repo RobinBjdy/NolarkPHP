@@ -58,6 +58,6 @@
         </section>
        <?php 
        include('./Include/footer.inc.php');
-       ?>
+       ?>      
     </body>
 </html>

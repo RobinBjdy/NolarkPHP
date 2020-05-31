@@ -8,7 +8,6 @@
     <?php 
         include('../include/head.inc.php');
         include('../include/header.inc.php');
-        include('../include/casque.inc.php');
-        include('../include/footer.inc.php');      
-    ?>   
+    ?>
 </html>
+

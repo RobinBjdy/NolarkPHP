@@ -6,10 +6,13 @@
 -->
 <html>
     <?php 
+        require '../include/bdd.php';
+        $bd= new bdd('nolarkuser','nolarkpwd');
+        $cnx=$bd->GetPdo();
+        $pageCasque= substr($pageActuelle,0,-4);
         include('../include/head.inc.php');
         include('../include/header.inc.php');        
-    ?>
-    <h1><?php echo $_GET['stock']?></h1>
+    ?>  
     <?php 
         include('../include/footer.inc.php');
     ?>   

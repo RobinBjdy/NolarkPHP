@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- 
      Page web créé dans le cadre du cours de web Dev le 01/09/2018
-     Auteur : José GIL
-     Email : jgil83000@gmail.com
+     Auteur : Alexis Vedrenne
+     Email : alexisvedrenne482@gmail.com
 -->
 
 <html lang="fr-FR">
@@ -52,9 +52,9 @@
         </section>
         <section id="thematique">
             <h1>Catégories les plus populaires</h1>
-            <article id="gauche"><a href="pages/route.html">Route</a></article>
-            <article id="milieu"><a href="pages/cross.html">Cross</a></article>
-            <article id="droite"><a href="pages/piste.html">Piste</a></article>
+            <article id="gauche"><a href="pages/route.php">Route</a></article>
+            <article id="milieu"><a href="pages/cross.php">Cross</a></article>
+            <article id="droite"><a href="pages/piste.php">Piste</a></article>
         </section>
        <?php 
        include('./Include/footer.inc.php');

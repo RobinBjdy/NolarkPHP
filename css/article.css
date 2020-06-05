@@ -19,7 +19,7 @@ h2{
 
 #articles p{
     float: right;
-    width: 500px;
+    width: 50%;
     font-size: 1.4em;
     padding-left: 2%;
     border-left: 1px solid black;
@@ -77,4 +77,38 @@ span2{
 
 .commentaires{
     font-size: 1.4em;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    outline: none;
+    padding: 1%;
+    margin: 3%;
+    font-size: 1.1em;
+}
+
+#dire{
+    margin-right: 61% ;
+}
+.rating a {
+   float:right;
+   color: #aaa;
+   text-decoration: none;
+   font-size: 1.8em;
+   transition: color .4s;
+   margin-bottom: 3%;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    #dire{
+        margin-right: 18%;
+    }
 }

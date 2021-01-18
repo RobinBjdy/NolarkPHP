@@ -16,7 +16,7 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
             if ($id->pseudo==$_POST['login']&&$id->motDePasse==$_POST['pwd']) {
             session_start();
             $_SESSION['login'] = $_POST['login'];
-            header('Location: espace-membre.php?identifier=' . $id->pseudo . '');
+            header('Location: ../index.php?identifier=' . $id->pseudo . '');
             exit();
         } elseif ($res[0] == 0) {
             $erreur = 'Login ou mot de passe non reconnu !';

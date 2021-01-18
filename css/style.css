@@ -303,7 +303,7 @@ footer a{
     }
 }
 
-.loginn-box{
+.login-box{
         margin-top: 4%;
 	width: 45%;
         margin-left: 25%;
@@ -316,8 +316,19 @@ footer a{
 
 
 
-.login-box input[type = "text"],.login-box input[type = "password"]{
-	border:3px solid black;
+.login-box input[type="text"],.login-box input[type="password"]{
+        width: 200px;
+        margin-bottom: 2%;
+	background: none;
+	outline: none;
+	border: 3px solid #4F5B7E;
+	padding: 2.7% 7%;
+	border-radius: 50px;
+	transition: 0.5s;
+	text-align: center;
+	cursor: pointer;
+	color: #4F5B7E;
+	font-size: 1em;	
 }
 
 .login-box i{
@@ -327,12 +338,12 @@ footer a{
 	
 }
 
-.login-box input[type = "text"]:focus,.login-box input[type = "password"]:focus{
-	width: 85%;
+.login-box input[type ="text"]:focus,.login-box input[type="password"]:focus{
+	width: 60%;
 	border-color: #879BD5;
 }
 	
-.login-box input[type = "submit"]{
+.login-box input[type="submit"]{
 	background: none;
 	display: block;
 	margin: 20px auto;
@@ -347,10 +358,11 @@ footer a{
 	font-size: 1em;	
 }
 
-.login-box input[type = "submit"]:hover{
+.login-box input[type="submit"]:hover{
 	background: #DFE2EB;
 	
 }
+
 
 #inscrit h1 {
     margin-top: 10px;
@@ -381,7 +393,7 @@ footer a{
     border-color: #5177E9;
 }
 
-.inscription input[type = "submit"]{
+.inscription input[type="submit"]{
 	border:0;
 	background: none;
 	display: block;
@@ -397,7 +409,7 @@ footer a{
 	font-size: 1em;	
 }
 
-.inscription input[type = "submit"]:hover{
+.inscription input[type ="submit"]:hover{
 	background: #DFE2EB;
 	
 }

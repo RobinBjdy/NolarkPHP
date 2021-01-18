@@ -10,5 +10,6 @@ echo'
         <link href="../css/style.css" rel="stylesheet" type="text/css">
         <link href="../css/casques.css" rel="stylesheet" type="text/css">
         <link href="../css/article.css" rel="stylesheet" type="text/css">
+        <link href="../css/carto.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="../favicon.ico">       
     </head>';

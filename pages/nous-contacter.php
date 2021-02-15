@@ -18,7 +18,7 @@
         <section id="contact">
             <h1>Nous contacter :</h1>
             <form name="form_contact" action="http://gil83.fr/nolark/testforms.php" method="POST">
-                <fieldset id="coordo">
+                <fieldset style="width:47%; float:left" id="coordo">
                     <legend>Pour mieux vous connaître</legend>
                     <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
@@ -95,7 +95,7 @@
                         <input type="color" name="col_couleur" id="col_couleur" value="#0055A4">
                     </div>
                 </fieldset>
-                <fieldset id="motif">
+                <fieldset style="width:47%; float: right " id="motif">
                     <legend>Motif du contact</legend>
                     <div><input type="radio" name="rd_motif" value="deminfo" id="rd_deminfo"> <label for="rd_deminfo">Demande d'information</label></div>
                     <div><input type="radio" name="rd_motif" value="reclam" id="rd_reclam"> <label for="rd_reclam">Réclamation</label></div>
@@ -105,7 +105,7 @@
                     <div><input type="radio" name="rd_motif" value="autre" id="rd_autre"> <label for="rd_autre">Autre...</label></div>
                     <div><label for="area_precisions">Si "Autre", veuillez préciser :</label><br><textarea name="area_precisions" id="area_precisions" cols="35" rows="10"></textarea></div>
                 </fieldset>
-                <div id="controles"><input type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact"> <input type="reset" name="rst_annuler" value="Effacer les réponses"></div>
+                <div id="controles" style=" padding-bottom: 80px;"><input style="margin-top: 30px; margin-right: 250px;" type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact"> <input style="margin-right: 300px;" type="reset" name="rst_annuler" value="Effacer les réponses"></div>
                 
               
             </form>
